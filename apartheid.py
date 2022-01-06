@@ -14,7 +14,7 @@ def register_parser(file_extensions, parser):
 
     for ext in file_extensions:
         if PARSERS.get(ext):
-            print 'WARNING: PARSERS[' + ext + '] is being replaced.'
+            print('WARNING: PARSERS[' + ext + '] is being replaced.')
         PARSERS[ext] = parser
 
 # alias.
@@ -48,7 +48,7 @@ class Parser:
         self._specs[name] = spec
 
     def parse(self, tokens, end, ctx):
-        for name,spec in self._specs.iteritems():
+        for name,spec in self._specs.items():
             elem = spec.parse(tokens, end, ctx)
             if elem != None:
                 return elem
