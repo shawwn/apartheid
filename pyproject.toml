@@ -9,6 +9,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.6"
+Plexer = "^1.1"
 
 [tool.poetry.urls]
 "Shawn's Website" = "https://www.shawwn.com"

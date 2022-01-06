@@ -3,6 +3,9 @@ from setuptools import setup
 
 modules = \
 ['apartheid']
+install_requires = \
+['Plexer>=1.1,<2.0']
+
 setup_kwargs = {
     'name': 'apartheid',
     'version': '0.1.1',
@@ -14,6 +17,7 @@ setup_kwargs = {
     'maintainer_email': 'None',
     'url': 'https://github.com/shawwn/apartheid',
     'py_modules': modules,
+    'install_requires': install_requires,
     'python_requires': '>=3.6,<4.0',
 }
 
