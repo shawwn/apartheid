@@ -1,7 +1,9 @@
+from __future__ import annotations
 from plexer import LexError, TYPE, tokenize
+import typing as t
 
 # member variables.
-PARSERS = { }
+PARSERS: t.Dict[str, Parser] = { }
 
 #-------------------
 # register_parser(some_parser, ['ext1', 'ext2'])
