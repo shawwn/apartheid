@@ -8,7 +8,7 @@ install_requires = \
 
 setup_kwargs = {
     'name': 'apartheid',
-    'version': '0.1.1',
+    'version': '0.2.0',
     'description': 'A simple parser (e.g. to parse a C file)',
     'long_description': '',
     'author': 'Shawn Presser',

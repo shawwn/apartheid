@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "apartheid"
-version = "0.1.1"
+version = "0.2.0"
 readme = "README.md"
 homepage = "https://github.com/shawwn/apartheid"
 description = "A simple parser (e.g. to parse a C file)"
