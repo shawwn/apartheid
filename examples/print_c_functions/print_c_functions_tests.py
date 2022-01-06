@@ -21,3 +21,6 @@ class PrintCFunctionsTestCase(unittest.TestCase):
              '{',
              '  return a + b;',
              '}']))
+
+if __name__ == '__main__':
+    unittest.main()
